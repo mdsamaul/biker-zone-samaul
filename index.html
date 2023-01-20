@@ -3,16 +3,164 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
+    <!-- favicon icon -->
+    <link
+      rel="shortcut icon"
+      href="images/icons/favicon-biking-solid.svg"
+      type="image/x-icon"
+    />
+
+    <title>Biker Zone samaul</title>
+    <!-- fontawesome link  -->
+    <script
+      src="https://kit.fontawesome.com/2466c77d9a.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- bootstrap link  -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <!-- css link  -->
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <h1>Biker Zone samaul</h1>
+    <header class="header">
+      <nav class="container navbar navbar-expand-lg">
+        <div class="container-fluid mt-4">
+          <a class="navbar-brand" href="#"><i class="bike-logo fa-solid fa-person-biking text-light"></i></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse nav-hover" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active text-light pe-5  fw-semibold" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light pe-5" href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light pe-5" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light pe-5" href="#">Contact</a>
+              </li>
+            </ul>
+           
+              <button class="btn text-light btn-color px-4" type="submit">Login</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- banner section  -->
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <div class="row">
+                <div class="col-md-6 ps-5 d-flex justify-content-center align-items-center">
+                    <div class="ms-5 ps-5 text-light">
+                        <h6 class="fw-lighter">Computer-controlled digital transistorized with electronic advance</h6>
+                    <h1>Honda CBR 300R</h1>
+                    <p class="fw-lighter">Amet minim mollit non deserunt ullamco est sit aliqua
+                        dolor do amet sint. Velit officia consequat duis enim velit
+                        mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        <button class="btn btn-color position-absolute text-light px-5">Purchase</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/header-bike.png" class="d-block w-755" alt="...">
+                </div>
+            </div>
+            
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <div class="row">
+                <div class="col-md-6 ps-5 d-flex justify-content-center align-items-center">
+                    <div class="ms-5 ps-5 text-light">
+                        <h6 class="fw-lighter">Computer-controlled digital transistorized with electronic advance</h6>
+                    <h1>Honda CBR 300R</h1>
+                    <p class="fw-lighter">Amet minim mollit non deserunt ullamco est sit aliqua
+                        dolor do amet sint. Velit officia consequat duis enim velit
+                        mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        <button class="btn btn-color position-absolute text-light px-5">Purchase</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/header-bike.png" class="d-block w-755" alt="...">
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+                <div class="col-md-6 ps-5 d-flex justify-content-center align-items-center">
+                    <div class="ms-5 ps-5 text-light">
+                        <h6 class="fw-lighter">Computer-controlled digital transistorized with electronic advance</h6>
+                    <h1>Honda CBR 300R</h1>
+                    <p class="fw-lighter">Amet minim mollit non deserunt ullamco est sit aliqua
+                        dolor do amet sint. Velit officia consequat duis enim velit
+                        mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        <button class="btn btn-color position-absolute text-light px-5">Purchase</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/header-bike.png" class="d-block w-755" alt="...">
+                </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+<!-- 
+
+      <div id="carouselExample" class="container carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> -->
+    </header>
+    <main></main>
+    <footer></footer>
 
     <!-- bs js  -->
     <script

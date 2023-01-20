@@ -1,0 +1,24 @@
+.header {
+  width: 100%;
+  height: 100vh;
+  background-color: #264653;
+}
+.bike-logo {
+  font-size: 2.5rem;
+  transition: 0.5s;
+}
+.bike-logo:hover {
+  color: aqua !important;
+}
+
+.nav-hover ul li a:hover {
+  color: aqua !important;
+  transition: 0.5s;
+}
+.btn-color {
+  background: #e76f51;
+  z-index: 1000;
+}
+.btn-color:hover {
+  border: 1px solid #e76f51;
+}
